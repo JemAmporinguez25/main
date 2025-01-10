@@ -13,9 +13,9 @@ double distance;
 const double setPoint = 4.5;  // Desired distance in inches
 
 // PID Constants (tuned for better performance)
-double Kp = 2;    // Proportional gain
-double Ki = 0.9;    // Integral gain
-double Kd = 1 ;    // Derivative gain
+double Kp = 1;    // Proportional gain
+double Ki = 0.5;    // Integral gain
+double Kd = 0.9 ;    // Derivative gain
 
 // PID Variables
 double previousError = 0;
